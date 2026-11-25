@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feesha - Build Your Dream PC</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- HERO SECTION -->
+    <section class="hero-section">
+        <div class="bg-stripes"></div>
+
+        <!-- Navigation -->
+        <nav class="navbar" id="mainNavbar">
+            <div class="nav-actions">
+                <button class="menu-btn" id="openSideMenu"><i class="fa-solid fa-bars"></i></button>
+                <a href="#" class="cta-btn" style="padding: 10px 15px;"><i class="fa-regular fa-heart"></i></a>
+                <a href="#" class="cta-btn"><i class="fa-solid fa-cart-shopping"></i> Cart</a>
+                <a href="#" class="login-btn">Log In</a>
+            </div>
+
+            <div class="nav-center" id="navCenter">
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="builder.html">PC Builder</a></li>
+                    <li><a href="#">Deals</a></li>
+                    <li><a href="#">Chat</a></li>
+                    <li><a href="#">About us</a></li>
+                </ul>
+
+                <div class="search-container" id="searchContainer">
+                    <input type="text" id="searchInput" class="search-input" placeholder="Search components, builds...">
+                    <button id="searchToggle" class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </div>
+
+            <a href="index.html" class="logo-link">
+                <img src="FEESHA LOGO WHITE.svg" alt="Feesha Logo" class="brand-logo">
+            </a>
+        </nav>
+
+        <!-- Hero Content -->
+        <div class="hero-content">
+            <div class="pill-badge">
+                <i class="fa-brands fa-usb"></i> Upgrade Smarter With Feesha
+            </div>
+            <h1>Power Up & Customize<br><span>Your Dream Setup</span> <i class="fa-solid fa-gamepad" style="color: #B971F7;"></i></h1>
+            <p>Shop top PC parts and build effortlessly.</p>
+            <button class="primary-btn">Shop Components Now <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+
+        <div class="mascot floating">
+            <div class="mascot-body">
+                <img src="Pattren Icon White.svg" alt="Feesha Mascot" class="custom-mascot-icon">
+            </div>
+        </div>
+
+        <!-- ================= FLOATING CARDS SHOWCASE ================= -->
+        <div class="cards-showcase" id="parallax-container">
+
+            <!-- Left Card -->
+            <div class="showcase-card card-left parallax-layer" data-speed="2">
+                <div class="card-header">
+                    <h4>FEESHA Assistant</h4>
+                    <img src="Chat Icon.png" alt="Chat Icon" style="width: 24px; height: 24px; object-fit: contain;">
+                </div>
+                <div class="price">
+                    <h2>Chat with<br><span>Feesha</span></h2>
+                    <p class="desc">Making the best decisions for your perfect build.</p>
+                </div>
+                <button class="checkout-btn">
+                    Start Chat <i class="fa-solid fa-paper-plane"></i>
+                </button>
+            </div>
+
+            <!-- Center Card -->
+            <div class="showcase-card card-center parallax-layer" data-speed="1">
+                <img src="IMG 001 MAIN.svg" alt="Main Feesha Offer" class="main-ad-img">
+            </div>
+
+            <!-- Right Card (Now a Clickable Link) -->
+            <a href="builder.html" class="showcase-card card-right glass parallax-layer" data-speed="3" style="text-decoration: none; cursor: pointer;">
+                <div class="deal-badge" style="display: flex; align-items: center; gap: 6px;">
+                    <img src="Pattren Icon White.svg" alt="Feesha Icon" style="width: 14px; height: auto;">
+                    Feesha Smart Builder
+                </div>
+                <p class="subtitle">System Check</p>
+                <h2>100% Parts<br>Compatible</h2>
+                <p class="saved-text">Real-time analysis active</p>
+
+                <svg class="dotted-curve" viewBox="0 0 100 50">
+                    <path d="M 0 50 Q 50 0 100 50" fill="transparent" stroke="#FFF" stroke-width="2" stroke-dasharray="4,4"/>
+                    <circle cx="100" cy="50" r="4" fill="#FFF"/>
+                </svg>
+                <div class="circle-btn"><i class="fa-solid fa-arrow-right"></i></div>
+            </a>
+
+        </div>
+
+        <div class="curve-divider">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="M0,120 L1440,120 L1440,60 Q720,120 0,60 Z" fill="#f4f5f7"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- ================= SMOOTH HORIZONTAL CATEGORIES ================= -->
+    <section class="features-section">
+        <div class="features-slider-wrapper">
+            <div class="features-slider" id="featuresSlider">
+
+                <div class="feature-item">
+                    <div class="feature-icon-wrapper"><img src="ICONS 1-Accessories.svg" alt="Accessories"></div>
+                    <span class="feature-name">Accessories</span>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon-wrapper"><img src="ICONS 1-laptop.svg" alt="Laptop"></div>
+                    <span class="feature-name">Laptop</span>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon-wrapper"><img src="ICONS 1-Motherboard.svg" alt="Motherboard"></div>
+                    <span class="feature-name">Motherboard</span>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon-wrapper"><img src="ICONS 1-Monitors.svg" alt="Monitors"></div>
+                    <span class="feature-name">Monitors</span>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon-wrapper"><img src="ICONS 1-Printers.svg" alt="Printers"></div>
+                    <span class="feature-name">Printers</span>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon-wrapper"><img src="ICONS 1- AIO Cooler.svg" alt="PC Cooling"></div>
+                    <span class="feature-name">PC Cooling</span>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon-wrapper"><img src="ICONS 1-CPU.svg" alt="CPU"></div>
+                    <span class="feature-name">CPU</span>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon-wrapper"><img src="ICONS 1-PC Case.svg" alt="PC Case"></div>
+                    <span class="feature-name">PC Case</span>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon-wrapper"><img src="ICONS 1-SSD-HDD.svg" alt="SSD/HDD"></div>
+                    <span class="feature-name">SSD/HDD</span>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon-wrapper"><img src="ICONS 1-UPS.svg" alt="UPS"></div>
+                    <span class="feature-name">UPS</span>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon-wrapper"><img src="ICONS 1-GPU.svg" alt="GPU"></div>
+                    <span class="feature-name">GPU</span>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon-wrapper"><img src="ICONS 1-Power Supplie.svg" alt="Power Supply"></div>
+                    <span class="feature-name">Power Supply</span>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon-wrapper"><img src="ICONS 1-RAM.svg" alt="RAM"></div>
+                    <span class="feature-name">RAM</span>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon-wrapper"><img src="ICONS 1-Figures.svg" alt="Figures"></div>
+                    <span class="feature-name">Figures</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= PROMOTIONAL OFFERS SECTION ================= -->
+    <section class="offers-section">
+        <div class="offers-container">
+            <div class="offer-card">
+                <div class="offer-content">
+                    <h3>Xiaomi A24I 24 FHD</h3>
+                    <p>Xiaomi A24I 24 FHD 1920 x 1080 100Hz IPS Flat Monitor</p>
+                    <a href="#" class="shop-now-btn">Shop Now</a>
+                </div>
+                <img src="offer num 1.png" alt="Xiaomi Monitor" class="offer-img">
+            </div>
+            <div class="offer-card">
+                <div class="offer-content">
+                    <h3>Apple MacBook Neo, Apple A18 Pro</h3>
+                    <p>Apple A18 Pro (6 Cores), GPU (5 Cores), 16GB RAM, SSD 512GB, 13.3-inch Liquid Retina Display</p>
+                    <a href="#" class="shop-now-btn">Shop Now</a>
+                </div>
+                <img src="offer num 2.png" alt="Apple MacBook Neo" class="offer-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= RTL ARABIC FOOTER ================= -->
+    <footer class="site-footer" dir="rtl">
+        <div class="footer-container">
+            <div class="footer-about">
+                <img src="FEESHA LOGO WHITE.svg" alt="Feesha" class="footer-logo">
+                <p>فيشة: وجهتك الموثوقة لأجهزة الكمبيوتر المحمولة والمكتبية والطابعات وجميع ملحقات الكمبيوتر.</p>
+            </div>
+            <div class="footer-links-wrapper">
+                <div class="footer-column">
+                    <h4>الروابط</h4>
+                    <ul>
+                        <li><a href="#">حولنا</a></li>
+                        <li><a href="#">تواصل معنا</a></li>
+                        <li><a href="#">عرض السلة</a></li>
+                        <li><a href="#">عملية الدفع</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column contact-col">
+                    <h4>تواصل معنا</h4>
+                    <ul class="contact-list">
+                        <li><i class="fa-brands fa-whatsapp" style="color: #25D366;"></i> <span dir="ltr">07849884411</span></li>
+                        <li><i class="fa-solid fa-phone" style="color: #413BCE;"></i> <span dir="ltr">07749884411</span></li>
+                        <li><i class="fa-solid fa-envelope" style="color: #B971F7;"></i> <span dir="ltr">feesha.net@gmail.com</span></li>
+                        <li><i class="fa-solid fa-location-dot" style="color: #FF3B30;"></i> <span>Baghdad, Iraq</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-divider"></div>
+        <div class="footer-bottom">
+            <p>جميع الحقوق محفوظة لصالح فيشة &copy; 2026</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ================= SIDE MENU TRIGGER ================= -->
+    <div id="sideMenuTrigger" class="side-menu-trigger">
+        <i class="fa-solid fa-chevron-right"></i>
+    </div>
+
+    <!-- ================= SIDE MENU ================= -->
+    <div class="menu-overlay" id="menuOverlay"></div>
+    <div class="side-menu-glass" id="sideMenu">
+
+        <div class="sm-top-bar">
+            <img src="Pattren Icon Main Purple.svg" alt="Feesha Pattern" class="sm-pattern-icon">
+            <button class="sm-close-btn" id="closeSideMenu"><i class="fa-solid fa-caret-left"></i></button>
+        </div>
+
+        <div class="sm-brand">
+            <div class="sm-logo-icon">
+                <img src="Pattren Icon White.svg" alt="F">
+            </div>
+            <h2>Feesha</h2>
+        </div>
+
+        <div class="sm-section-title">MENU</div>
+        <ul class="sm-nav-list">
+            <li><a href="index.html" class="active"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><a href="builder.html"><i class="fa-solid fa-screwdriver-wrench"></i> PC Builder</a></li>
+            <li><a href="#"><i class="fa-solid fa-microchip"></i> PC Components</a></li>
+            <li><a href="#"><i class="fa-solid fa-laptop"></i> Laptops</a></li>
+            <li><a href="#"><i class="fa-solid fa-desktop"></i> Monitors</a></li>
+            <li><a href="#"><i class="fa-solid fa-headphones"></i> Accessories</a></li>
+            <li><a href="#"><i class="fa-solid fa-car-battery"></i> UPS</a></li>
+            <li><a href="#"><i class="fa-solid fa-circle-info"></i> About us</a></li>
+            <li>
+                <a href="#" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+                    <span><i class="fa-solid fa-heart"></i> Wishlist</span>
+                    <span class="sm-badge">3</span>
+                </a>
+            </li>
+        </ul>
+
+        <div class="sm-section-title sm-flex-between">
+            <span>MESSAGES</span>
+            <div class="sm-arrows"><i class="fa-solid fa-angle-left"></i> <i class="fa-solid fa-angle-right"></i></div>
+        </div>
+
+        <div class="sm-messages-card">
+            <a href="#" class="sm-msg-item">
+                <div class="sm-msg-avatar"><img src="Chat Icon.png" alt="Chat"></div>
+                <span class="sm-msg-name">FEESHA Assistant</span>
+                <span class="sm-badge small">1</span>
+            </a>
+            <a href="#" class="sm-msg-item">
+                <div class="sm-msg-avatar support-icon"><i class="fa-solid fa-headset"></i></div>
+                <span class="sm-msg-name">Live Support Team</span>
+            </a>
+
+            <button class="sm-all-msg-btn">
+                <i class="fa-solid fa-caret-down"></i> Chat
+            </button>
+        </div>
+
+        <div class="sm-user-profile">
+            <div class="sm-user-avatar">
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="sm-user-info">
+                <h4>My Account</h4>
+                <p>Manage Settings</p>
+            </div>
+        </div>
+
+    </div>
+
+    <button id="scrollTopBtn" class="scroll-top-btn"><i class="fa-solid fa-arrow-up"></i></button>
+    <script src="script.js"></script>
+</body>
+</html>
